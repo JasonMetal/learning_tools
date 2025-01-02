@@ -2,7 +2,7 @@ package hconfig
 
 import (
 	"errors"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
+	"learning_tools/hconfig/hconf"
 )
 
 type Option func(opt *options)

@@ -1,7 +1,7 @@
 package aggregate
 
 import (
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/repository"
+	"learning_tools/ddd-auth2-example/infrastructure/repository"
 )
 
 type Factory struct {

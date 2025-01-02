@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 	"github.com/go-kit/kit/endpoint"
-	"github.com/hwholiday/learning_tools/go-kit/v3/utils"
-	"github.com/hwholiday/learning_tools/go-kit/v3/v3_service"
 	"go.uber.org/zap"
+	"learning_tools/go-kit/v3/utils"
+	"learning_tools/go-kit/v3/v3_service"
 	"time"
 )
 

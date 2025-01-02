@@ -8,6 +8,15 @@ import (
 	"path/filepath"
 )
 
+// main
+//
+//	@Description:
+//
+// 初始化监控器：创建 fsnotify.Watcher 实例并封装到 Watch 结构体中。
+// 递归添加监控路径：遍历指定目录，将所有子目录添加到监控列表。
+// 启动监控服务：在一个 goroutine 中监听文件变化事件。
+// 事件处理：根据事件类型（创建、写入、删除、重命名）执行相应操作。
+// 错误处理：捕获并打印监控过程中产生的错误，然后退出。
 func main() {
 	watch, _ := fsnotify.NewWatcher()
 	w := Watch{
@@ -21,6 +30,11 @@ type Watch struct {
 	watch *fsnotify.Watcher
 }
 
+// watchDir
+//
+//	@Description: 监控文件夹下的文件的创建、修改、删除事件
+//	@receiver w
+//	@param dir
 func (w *Watch) watchDir(dir string) {
 	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if info.IsDir() {

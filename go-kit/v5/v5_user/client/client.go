@@ -4,13 +4,13 @@ import (
 	"context"
 	"github.com/go-kit/kit/endpoint"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
-	"github.com/hwholiday/learning_tools/go-kit/v5/v5_user/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v5/v5_user/v5_endpoint"
-	"github.com/hwholiday/learning_tools/go-kit/v5/v5_user/v5_service"
 	uuid "github.com/satori/go.uuid"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
+	"learning_tools/go-kit/v5/v5_user/pb"
+	"learning_tools/go-kit/v5/v5_user/v5_endpoint"
+	"learning_tools/go-kit/v5/v5_user/v5_service"
 )
 
 func NewGRPCClient(conn *grpc.ClientConn, log *zap.Logger) v5_service.Service {

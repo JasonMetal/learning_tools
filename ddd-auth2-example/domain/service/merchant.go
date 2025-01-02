@@ -3,10 +3,10 @@ package service
 import (
 	"context"
 	"errors"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/entity"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo/specification"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/domain/entity"
+	"learning_tools/ddd-auth2-example/domain/repo"
+	"learning_tools/ddd-auth2-example/domain/repo/specification"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
 )
 
 type Merchant struct {

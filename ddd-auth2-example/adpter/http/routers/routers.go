@@ -3,7 +3,8 @@ package routers
 import (
 	//"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/adpter/http/auth_handles"
+	//"learning_tools/ddd-auth2-example/adpter/http/auth_handles"
+	"learning_tools/ddd-auth2-example/adpter/http/auth_handles"
 )
 
 func SetRouters(r *gin.Engine, h *auth_handles.Handles) {

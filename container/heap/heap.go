@@ -1,5 +1,6 @@
 package heap
 
+// container
 type Item struct {
 	data  interface{}
 	ref   int //优先级
@@ -28,6 +29,9 @@ func (m *Queue) Push(d interface{}) {
 }
 
 func (m *Queue) Pop() interface{} {
+	if len(*m) == 0 {
+		return nil
+	}
 	//抛出后面的一个数据
 	l := len(*m)
 	s := (*m)[l-1]

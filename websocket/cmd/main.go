@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hwholiday/learning_tools/websocket/gateway/ws"
+	"learning_tools/websocket/gateway/ws"
 )
 
 func main() {

@@ -16,16 +16,16 @@ sudo docker run --privileged -d --restart=unless-stopped -p 88:80 -p 433:443 ran
 ## 准备镜像
 
 - 网关：ws 服务
-    - [在目录 gateway 下](https://github.com/hwholiday/learning_tools/tree/master/istio/gateway)
+    - [在目录 gateway 下](https://learning_tools/tree/master/istio/gateway)
 - 服务 V1:grpc 服务
-    - [在目录 logic_v1 下](https://github.com/hwholiday/learning_tools/tree/master/istio/logic_v1)
+    - [在目录 logic_v1 下](https://learning_tools/tree/master/istio/logic_v1)
 - 服务 V2:grpc 服务
-    - [在目录 logic_v2 下](https://github.com/hwholiday/learning_tools/tree/master/istio/logic_v2)
+    - [在目录 logic_v2 下](https://learning_tools/tree/master/istio/logic_v2)
 - 服务 V3:grpc 服务
-    - [在目录 logic_v3 下](https://github.com/hwholiday/learning_tools/tree/master/istio/logic_v3)
+    - [在目录 logic_v3 下](https://learning_tools/tree/master/istio/logic_v3)
     - 链接了 Reids 集群
 - 关于k8s和istio的配置文件
-  - [在目录 kube 下](https://github.com/hwholiday/learning_tools/tree/master/istio/kube)
+  - [在目录 kube 下](https://learning_tools/tree/master/istio/kube)
       ```base
       ├── gateway.yaml      部署 gateway(Deployment[k8s]) 服务和对应的 Service(k8s)
       ├── logic.yaml        部署 logic(Deployment[k8s]) 服务和对应的 Service(k8s)
@@ -88,7 +88,7 @@ istioctl dashboard kiali
   kubectl apply -f net-logic.yaml -n im
   kubectl apply -f net-redis.yaml -n im
 ```
-### [测试 gateway](https://github.com/hwholiday/learning_tools/blob/master/istio/gateway/README.md)
+### [测试 gateway](https://learning_tools/blob/master/istio/gateway/README.md)
 
 ## 其他
 

@@ -2,14 +2,14 @@ package aggregate
 
 import (
 	"context"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/entity"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/obj"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo/specification"
-	consts "github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/conf"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/tool"
+	"learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/domain/entity"
+	"learning_tools/ddd-auth2-example/domain/obj"
+	"learning_tools/ddd-auth2-example/domain/repo"
+	"learning_tools/ddd-auth2-example/domain/repo/specification"
+	consts "learning_tools/ddd-auth2-example/infrastructure/conf"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/tool"
 )
 
 type AuthTokenProduce struct {

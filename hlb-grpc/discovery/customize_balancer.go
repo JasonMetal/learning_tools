@@ -2,11 +2,11 @@ package discovery
 
 import (
 	"fmt"
-	"github.com/hwholiday/learning_tools/hlb-grpc/register"
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/resolver"
+	"learning_tools/hlb-grpc/register"
 	"math/rand"
 	"strings"
 	"sync"

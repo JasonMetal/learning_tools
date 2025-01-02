@@ -2,7 +2,7 @@ package repo
 
 import (
 	"context"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/entity"
+	"learning_tools/ddd-auth2-example/domain/entity"
 )
 
 type MerchantRepo interface {

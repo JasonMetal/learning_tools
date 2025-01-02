@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-kit/kit/log"
-	"github.com/hwholiday/learning_tools/go-kit/v7/user_agent/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v7/user_agent/src"
 	uuid "github.com/satori/go.uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
+	"learning_tools/go-kit/v7/user_agent/pb"
+	"learning_tools/go-kit/v7/user_agent/src"
 	"os"
 	"testing"
 )

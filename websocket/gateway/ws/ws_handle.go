@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hwholiday/learning_tools/websocket/pb"
+	"learning_tools/websocket/pb"
 )
 
 func wsHandle(w *WsConnection) {

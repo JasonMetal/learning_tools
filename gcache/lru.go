@@ -2,6 +2,8 @@ package gcache
 
 import "container/list"
 
+// LRU Least Recently Used （最近最少使用）策略的缓存系统
+// 当缓存满了，需要腾出空间时，会优先淘汰最近最少被使用的缓存项。
 type LRU struct {
 	maxByte  int64
 	useByte  int64

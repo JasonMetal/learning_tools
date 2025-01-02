@@ -3,7 +3,7 @@ package apollo
 import (
 	"github.com/apolloconfig/agollo/v4"
 	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
+	"learning_tools/hconfig/hconf"
 	"strings"
 )
 

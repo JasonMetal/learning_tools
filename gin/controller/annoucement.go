@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/gin/model"
+	"learning_tools/gin/model"
 )
 
 // announcement

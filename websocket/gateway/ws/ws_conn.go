@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hwholiday/learning_tools/websocket/gateway/msg"
+	"learning_tools/websocket/gateway/msg"
 
 	"github.com/gorilla/websocket"
 	uuid "github.com/satori/go.uuid"

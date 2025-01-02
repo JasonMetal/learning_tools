@@ -9,12 +9,12 @@ import (
 	"github.com/go-kit/kit/sd/etcdv3"
 	"github.com/go-kit/kit/sd/lb"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
-	"github.com/hwholiday/learning_tools/go-kit/v7/user_agent/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v7/user_agent/src"
 	uuid "github.com/satori/go.uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"io"
+	"learning_tools/go-kit/v7/user_agent/pb"
+	"learning_tools/go-kit/v7/user_agent/src"
 	"time"
 )
 

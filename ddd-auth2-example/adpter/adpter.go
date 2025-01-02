@@ -1,12 +1,12 @@
 package adpter
 
 import (
-	"github.com/hwholiday/learning_tools/all_packaged_library/base/tool"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/adpter/http"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/service"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/conf"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"go.uber.org/zap"
+	"learning_tools/all_packaged_library/base/tool"
+	"learning_tools/ddd-auth2-example/adpter/http"
+	"learning_tools/ddd-auth2-example/domain/service"
+	"learning_tools/ddd-auth2-example/infrastructure/conf"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 )
 
 type Server struct {

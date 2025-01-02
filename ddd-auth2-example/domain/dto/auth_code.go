@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
 	"net/url"
 )
 

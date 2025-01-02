@@ -2,7 +2,7 @@ package apollo
 
 import (
 	"github.com/apolloconfig/agollo/v4/storage"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
+	"learning_tools/hconfig/hconf"
 )
 
 var _ hconf.DataWatcher = (*watcher)(nil)

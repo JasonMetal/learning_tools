@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hwholiday/learning_tools/hlb-grpc/example/api"
-	"github.com/hwholiday/learning_tools/hlb-grpc/register"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
+	"learning_tools/hlb-grpc/example/api"
+	"learning_tools/hlb-grpc/register"
 )
 
 type ApiService struct{}

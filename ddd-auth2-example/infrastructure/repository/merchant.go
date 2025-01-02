@@ -3,12 +3,12 @@ package repository
 import (
 	"context"
 	"errors"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/entity"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.uber.org/zap"
+	"learning_tools/ddd-auth2-example/domain/entity"
+	"learning_tools/ddd-auth2-example/domain/repo"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 )
 
 var _ repo.MerchantRepo = (*Merchant)(nil)

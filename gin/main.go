@@ -3,19 +3,16 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/cihub/seelog"
+	"github.com/gin-gonic/gin"
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/h2c"
+	"learning_tools/gin/model"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
-
-	"github.com/hwholiday/learning_tools/gin/router"
-
-	"github.com/cihub/seelog"
-	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/gin/model"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/h2c"
 )
 
 var addr = flag.String("addr", "127.0.0.1:8081", "server addr")
@@ -42,7 +39,6 @@ func main() {
 	h2s := &http2.Server{}
 	g := gin.Default()
 	model.InitDb(*mysqlPath)
-	router.SetRouters(g)
 	s := &http.Server{
 		Handler:        h2c.NewHandler(g, h2s),
 		Addr:           *addr,

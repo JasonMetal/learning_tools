@@ -2,10 +2,10 @@ package kubernetes
 
 import (
 	"errors"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
+	"learning_tools/hconfig/hconf"
 )
 
 var _ hconf.DataSource = (*kubernetesConfig)(nil)

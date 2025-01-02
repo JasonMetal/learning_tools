@@ -2,13 +2,13 @@ package client
 
 import (
 	"context"
-	"github.com/hwholiday/learning_tools/all_packaged_library/logtool"
-	"github.com/hwholiday/learning_tools/go-kit/v5/v5_user/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v5/v5_user/v5_service"
 	uuid "github.com/satori/go.uuid"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
+	"learning_tools/all_packaged_library/logtool"
+	"learning_tools/go-kit/v5/v5_user/pb"
+	"learning_tools/go-kit/v5/v5_user/v5_service"
 	"testing"
 )
 

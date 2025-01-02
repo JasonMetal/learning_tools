@@ -2,9 +2,9 @@ package service
 
 import (
 	"context"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/aggregate"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
+	"learning_tools/ddd-auth2-example/domain/aggregate"
+	"learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/domain/repo"
 )
 
 type AuthCode struct {

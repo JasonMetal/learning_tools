@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/hwholiday/learning_tools/go-kit/v1/v1_endpoint"
-	"github.com/hwholiday/learning_tools/go-kit/v1/v1_service"
-	"github.com/hwholiday/learning_tools/go-kit/v1/v1_transport"
+	"learning_tools/go-kit/v1/v1_endpoint"
+	"learning_tools/go-kit/v1/v1_service"
+	"learning_tools/go-kit/v1/v1_transport"
 	"net/http"
 )
 

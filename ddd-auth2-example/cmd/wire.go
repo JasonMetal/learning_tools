@@ -6,14 +6,14 @@ package main
 
 import (
 	"github.com/google/wire"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/adpter"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/aggregate"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/service"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/conf"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/database/mongo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/repository"
+	"learning_tools/ddd-auth2-example/adpter"
+	"learning_tools/ddd-auth2-example/domain/aggregate"
+	"learning_tools/ddd-auth2-example/domain/service"
+	"learning_tools/ddd-auth2-example/infrastructure/conf"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/database/mongo"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
+	"learning_tools/ddd-auth2-example/infrastructure/repository"
 )
 
 //go:generate wire

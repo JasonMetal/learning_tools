@@ -3,7 +3,7 @@ package ws
 import (
 	"sync"
 
-	"github.com/hwholiday/learning_tools/websocket/gateway/msg"
+	"learning_tools/websocket/gateway/msg"
 )
 
 var ctr *wsCenter

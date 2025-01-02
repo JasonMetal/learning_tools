@@ -2,13 +2,13 @@ package auth_handles
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/domain/dto"
 )
 
 // CreateToken appid	是	唯一标识
-//secret	是	secret
-//code	是	填写第一步获取的code参数
-//grant_type	是	填写为authorization_code
+// secret	是	secret
+// code	是	填写第一步获取的code参数
+// grant_type	是	填写为authorization_code
 func (h *Handles) CreateToken(g *gin.Context) {
 	var (
 		appid     = g.Query("appid")
@@ -31,8 +31,8 @@ func (h *Handles) CreateToken(g *gin.Context) {
 }
 
 // RefreshAccessToken  appid	是	唯一标识
-//grant_type	是	填写为 refresh_token
-//refresh_token	是	填写通过access_token获取到的refresh_token参数
+// grant_type	是	填写为 refresh_token
+// refresh_token	是	填写通过access_token获取到的refresh_token参数
 func (h *Handles) RefreshAccessToken(g *gin.Context) {
 	var (
 		appid        = g.Query("appid")

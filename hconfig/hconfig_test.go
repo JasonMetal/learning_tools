@@ -1,10 +1,10 @@
 package hconfig
 
 import (
-	"github.com/hwholiday/learning_tools/hconfig/apollo"
-	"github.com/hwholiday/learning_tools/hconfig/etcd"
-	"github.com/hwholiday/learning_tools/hconfig/kubernetes"
 	clientv3 "go.etcd.io/etcd/client/v3"
+	"learning_tools/hconfig/apollo"
+	"learning_tools/hconfig/etcd"
+	"learning_tools/hconfig/kubernetes"
 	"testing"
 )
 

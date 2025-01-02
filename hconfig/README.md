@@ -1,4 +1,4 @@
-### [hconfig 插拔式配置读取工具可动态加载](https://github.com/hwholiday/learning_tools/tree/master/hconfig)
+### [hconfig 插拔式配置读取工具可动态加载](https://learning_tools/tree/master/hconfig)
 
 - 支持 etcd
 - 支持 kubernetes

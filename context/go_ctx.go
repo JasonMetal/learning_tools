@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	ctx, cancel := context.WithTimeout(context.Background(), time.Second*4)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second*3)
 	defer cancel()
 	go fmt.Println(doFuncSuccess(ctx))
 	go fmt.Println(doFuncFail(ctx))

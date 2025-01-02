@@ -3,9 +3,9 @@ package src
 import (
 	"context"
 	"fmt"
-	"github.com/hwholiday/learning_tools/go-kit/v9/user_agent/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v9/utils"
 	"go.uber.org/zap"
+	"learning_tools/go-kit/v9/user_agent/pb"
+	"learning_tools/go-kit/v9/utils"
 	"time"
 )
 

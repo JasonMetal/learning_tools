@@ -3,10 +3,10 @@ package auth_handles
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"go.uber.org/zap"
+	"learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"net/http"
 )
 

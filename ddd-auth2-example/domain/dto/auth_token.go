@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+import "learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
 
 type AuthTokenSimple struct {
 	OpenID       string `json:"open_id"`

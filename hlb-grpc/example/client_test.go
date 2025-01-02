@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hwholiday/learning_tools/hlb-grpc/discovery"
-	"github.com/hwholiday/learning_tools/hlb-grpc/example/api"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/resolver"
+	"learning_tools/hlb-grpc/discovery"
+	"learning_tools/hlb-grpc/example/api"
 )
 
 func TestClient(t *testing.T) {

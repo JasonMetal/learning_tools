@@ -11,14 +11,14 @@ import (
 	grpcmiddleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_zap "github.com/grpc-ecosystem/go-grpc-middleware/logging/zap"
 	grpc_opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
-	"github.com/hwholiday/learning_tools/go-kit/v9/user_agent/pb"
-	"github.com/hwholiday/learning_tools/go-kit/v9/user_agent/src"
-	"github.com/hwholiday/learning_tools/go-kit/v9/utils"
 	"github.com/opentracing/opentracing-go"
 	uuid "github.com/satori/go.uuid"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 	"io"
+	"learning_tools/go-kit/v9/user_agent/pb"
+	"learning_tools/go-kit/v9/user_agent/src"
+	"learning_tools/go-kit/v9/utils"
 	"time"
 )
 

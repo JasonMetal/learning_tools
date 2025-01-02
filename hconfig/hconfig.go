@@ -3,7 +3,7 @@ package hconfig
 import (
 	"context"
 	"errors"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
+	"learning_tools/hconfig/hconf"
 	"sync"
 )
 

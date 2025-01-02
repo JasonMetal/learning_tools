@@ -1,10 +1,10 @@
 package kubernetes
 
 import (
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/watch"
+	"learning_tools/hconfig/hconf"
 )
 
 var _ hconf.DataWatcher = (*watcher)(nil)

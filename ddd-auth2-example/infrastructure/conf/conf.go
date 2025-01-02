@@ -3,10 +3,10 @@ package conf
 import (
 	"flag"
 	"fmt"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/database/mongo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"github.com/spf13/viper"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/database/mongo"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 )
 
 type AppConfig struct {

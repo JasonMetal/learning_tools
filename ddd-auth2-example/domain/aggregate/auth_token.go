@@ -3,10 +3,10 @@ package aggregate
 import (
 	"context"
 	"fmt"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/tool"
+	"learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/domain/repo"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/tool"
 	"strconv"
 )
 

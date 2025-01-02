@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 	"encoding/json"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
 	"go.mongodb.org/mongo-driver/mongo"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/database/redis"
 )
 
 type repository struct {

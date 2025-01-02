@@ -1,6 +1,6 @@
 # go-kit 微服务实践，从入门到精通系列
 
-### [go-kit 系列文章归档地址](https://github.com/hwholiday/learning_tools/tree/master/go-kit) (详细介绍)
+### [go-kit 系列文章归档地址](https://learning_tools/tree/master/go-kit) (详细介绍)
 
 1:  [v1 go-kit 微服务 基础使用 （HTTP）](https://www.hwholiday.com/2019/go_kit_v1/)  
 2:  [v2 go-kit 微服务 添加日志（user/zap ,并为每个请求添加UUID）](https://www.hwholiday.com/2020/git_kit_v2/)   

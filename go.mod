@@ -1,4 +1,5 @@
-module github.com/hwholiday/learning_tools
+//module learning_tools
+module learning_tools
 
 go 1.18
 

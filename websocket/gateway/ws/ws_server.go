@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/hwholiday/learning_tools/websocket/gateway/msg"
-	"github.com/hwholiday/learning_tools/websocket/pb"
+	"learning_tools/websocket/gateway/msg"
+	"learning_tools/websocket/pb"
 )
 
 var wsUpgrader = websocket.Upgrader{

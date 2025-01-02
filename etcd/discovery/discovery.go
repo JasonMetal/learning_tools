@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/hwholiday/learning_tools/etcd/register"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc/resolver"
+	"learning_tools/etcd/register"
 	"log"
 	"sync"
 	"time"
@@ -100,7 +100,7 @@ func (d *Discovery) Scheme() string {
 	return "discovery"
 }
 
-//watcher 监听前缀
+// watcher 监听前缀
 func (d *Discovery) watcher() {
 	rch := d.etcdCli.Watch(context.Background(), d.opts.SrvName, clientv3.WithPrefix())
 	for res := range rch {

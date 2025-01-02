@@ -2,11 +2,11 @@ package auth_handles
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/service"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/conf"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"go.uber.org/zap"
+	"learning_tools/ddd-auth2-example/domain/service"
+	"learning_tools/ddd-auth2-example/infrastructure/conf"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 )
 
 type Handles struct {

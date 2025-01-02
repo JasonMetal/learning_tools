@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-redis/redis"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/obj"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/repo"
-	consts "github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/conf"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"go.uber.org/zap"
+	"learning_tools/ddd-auth2-example/domain/obj"
+	"learning_tools/ddd-auth2-example/domain/repo"
+	consts "learning_tools/ddd-auth2-example/infrastructure/conf"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/hcode"
+	"learning_tools/ddd-auth2-example/infrastructure/pkg/log"
 	"time"
 )
 

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hwholiday/learning_tools/websocket/pb"
+	"learning_tools/websocket/pb"
 )
 
 func TestMain(m *testing.M) {

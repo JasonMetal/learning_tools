@@ -10,7 +10,7 @@
 
 # go-kit 微服务实践，从入门到精通
 
-### [go-kit 系列文章归档地址](https://github.com/hwholiday/learning_tools/tree/master/go-kit) (详细介绍)
+### [go-kit 系列文章归档地址](https://learning_tools/tree/master/go-kit) (详细介绍)
 
 1:  [v1 go-kit 微服务 基础使用 （HTTP）](https://www.hwholiday.com/2019/go_kit_v1/)  
 2:  [v2 go-kit 微服务 添加日志（user/zap ,并为每个请求添加UUID）](https://www.hwholiday.com/2020/git_kit_v2/)   
@@ -30,7 +30,7 @@
 
 # gRPC负载均衡（自定义负载均衡策略--etcd 实现）
 
-### [hlb-grpc](https://github.com/hwholiday/learning_tools/tree/master/hlb-grpc) (gRPC负载均衡（自定义负载均衡策略--etcd 实现)
+### [hlb-grpc](https://learning_tools/tree/master/hlb-grpc) (gRPC负载均衡（自定义负载均衡策略--etcd 实现)
 
 ##### 实现基于版本（version）的grpc负载均衡器，了解过程后可自己实现更多的负载均衡功能
 
@@ -70,11 +70,11 @@
 ### [OAuth 2.0-授权码模式（authorization code）仿微信设计（战略篇）](https://www.hwholiday.com/2022/auth2_strategy/)
 ### [OAuth 2.0-授权码模式（authorization code）仿微信设计（战术篇）](https://www.hwholiday.com/2022/auth2_tactics/)
 
-### [AUTH2 代码地址](https://github.com/hwholiday/learning_tools/tree/master/ddd-auth2-example)
+### [AUTH2 代码地址](https://learning_tools/tree/master/ddd-auth2-example)
 
 # Golang DDD 的项目分层结构（六边形架构）
 
-### [DDD](https://github.com/hwholiday/learning_tools/tree/master/ddd-project-example) （DDD 项目分层结构）
+### [DDD](https://learning_tools/tree/master/ddd-project-example) （DDD 项目分层结构）
 
 ```base
 ├── cmd 存放 main.go 等
@@ -108,7 +108,7 @@
 
 # 封装 zap 日志注入 trace 信息 Trace Id（内含 gin 例子）
 
-### [hlog](https://github.com/hwholiday/learning_tools/tree/master/hlog) (源码地址)
+### [hlog](https://learning_tools/tree/master/hlog) (源码地址)
 
 - 实现自动切割文件 (基于 lumberjack 实现)
 - 实现可传递 trace 信息 （基于 Context 实现）
@@ -120,7 +120,7 @@
 {"level":"debug","ts":1639453664.7402549,"caller":"example/main.go:33","msg":"test","traceId":"68867b89-c949-45a4-b325-86866c9f869a"}
 ```
 
-### [hconfig 插拔式配置读取工具可动态加载](https://github.com/hwholiday/learning_tools/tree/master/hconfig)
+### [hconfig 插拔式配置读取工具可动态加载](https://learning_tools/tree/master/hconfig)
 - 支持 etcd
 - 支持 kubernetes
 - 支持 apollo
@@ -176,7 +176,7 @@ conf.Watch(func(path string, v HVal) {
 
 # go_push 一个实用的消息推送服务
 
-### [go_push](https://github.com/hwholiday/learning_tools/tree/master/go_push) (推送服务)
+### [go_push](https://learning_tools/tree/master/go_push) (推送服务)
 
     ```base
     ├── gateway // 长连接网关服务器
@@ -192,7 +192,7 @@ conf.Watch(func(path string, v HVal) {
     └── main.go
     ```
 
-### [HConf (基于etcd与viper的高可用配置中心)](https://github.com/hwholiday/learning_tools/tree/master/hconf)
+### [HConf (基于etcd与viper的高可用配置中心)](https://learning_tools/tree/master/hconf)
 
 - 可使用远程与本地模式
 - 本地有的配置远程没有会自动把本地配置传到远程（基于key）
@@ -220,19 +220,19 @@ t.Log(conf)
 t.Log(r.Close())
 ```
 
-### [timezonefinder](https://github.com/hwholiday/learning_tools/tree/master/timezonefinder)
+### [timezonefinder](https://learning_tools/tree/master/timezonefinder)
     1: 通过时区获取当前国家码和大洲码
     2: Country to Continent Mapping
     3: Timezone to Country Mapping
 
-### [HEvent (基于channel )](https://github.com/hwholiday/learning_tools/tree/master/hevent)
+### [HEvent (基于channel )](https://learning_tools/tree/master/hevent)
     1: 基于channel的简单事件订阅发布
 
-### [设计模式](https://github.com/hwholiday/learning_tools/tree/master/design-patterns)
+### [设计模式](https://learning_tools/tree/master/design-patterns)
     1: 并发设计模式之Active Object
     2: Go 实现的责任链模式
 
-### [micro_agent](https://github.com/hwholiday/learning_tools/tree/master/micro_agent) (micro微服务)
+### [micro_agent](https://learning_tools/tree/master/micro_agent) (micro微服务)
 
     1: base 基础方法
     2: conf 配置文件
@@ -240,7 +240,7 @@ t.Log(r.Close())
     4：model 数据格式
     5：proto protobuf 文件
 
-### [all_packaged_library](https://github.com/hwholiday/learning_tools/tree/master/all_packaged_library) 里面封装了一些常用的库，有详细的介绍，持续更新
+### [all_packaged_library](https://learning_tools/tree/master/all_packaged_library) 里面封装了一些常用的库，有详细的介绍，持续更新
 
     1: base 里面封装mysql，redis，mgo，minio文件储存库S3协议，雪花算法，退出程序方法，redis全局锁，日志库等（插件形式可单独引用）
     2: logtool uber_zap日志库封装，可自动切分日志文件，压缩文件
@@ -249,160 +249,160 @@ t.Log(r.Close())
     5: quit 优雅的退出程序
     6: registrySelector 基于etcd实现的服务注册，发现，负载均衡
 
-### [docker](https://github.com/hwholiday/learning_tools/tree/master/docker) (为你的服务插上docker_compose翅膀)
+### [docker](https://learning_tools/tree/master/docker) (为你的服务插上docker_compose翅膀)
 
      1: docker 为你的服务插上docker_compose翅膀   
 
-### [kafka](https://github.com/hwholiday/learning_tools/tree/master/kafka) (分布式消息发布订阅系统)
+### [kafka](https://learning_tools/tree/master/kafka) (分布式消息发布订阅系统)
 
     1: main 消息队列
 
-### [NATS_streaming](https://github.com/hwholiday/learning_tools/tree/master/NATS_streaming) (分布式消息发布订阅系统--是由NATS驱动的数据流系统)
+### [NATS_streaming](https://learning_tools/tree/master/NATS_streaming) (分布式消息发布订阅系统--是由NATS驱动的数据流系统)
 
     1: main 消息队列
 
-### [nsq](https://github.com/hwholiday/learning_tools/tree/master/nsq) (分布式实时消息平台)
+### [nsq](https://learning_tools/tree/master/nsq) (分布式实时消息平台)
 
     1: main 消息队列
 
-### [grpc](https://github.com/hwholiday/learning_tools/tree/master/grpc) (grpc学习)
+### [grpc](https://learning_tools/tree/master/grpc) (grpc学习)
 
     1: bidirectional_streaming_rpc 双向流grpc
     2: server_side_streaming_rpc 服务端流grpc，也可以写成客户端流grpc
     3: simple_rpc 简单grpc
 
-### [rpc](https://github.com/hwholiday/learning_tools/tree/master/rpc) (rpc学习)
+### [rpc](https://learning_tools/tree/master/rpc) (rpc学习)
 
     1: main rpc学习
 
-### [prometheus](https://github.com/hwholiday/learning_tools/tree/master/prometheus) (监控报警系统)
+### [prometheus](https://learning_tools/tree/master/prometheus) (监控报警系统)
 
     1: server Prometheus监控报警系统
 
-### [jaeger](https://github.com/hwholiday/learning_tools/tree/master/jaeger) (jaeger分布式链路追踪)
+### [jaeger](https://learning_tools/tree/master/jaeger) (jaeger分布式链路追踪)
 
     1: main jaeger分布式链路追踪
 
-### [service_load_balancing](https://github.com/hwholiday/learning_tools/tree/master/service_load_balancing) (负载均衡)
+### [service_load_balancing](https://learning_tools/tree/master/service_load_balancing) (负载均衡)
 
     1: fisher_yates_test  添加fisher-yates算法 负载均衡节点
 
-### [hystrix](https://github.com/hwholiday/learning_tools/tree/master/hystrix) (熔断)
+### [hystrix](https://learning_tools/tree/master/hystrix) (熔断)
 
     1: hystrix 学习并使用熔断（Hystrix）
 
-### [req_limit](https://github.com/hwholiday/learning_tools/tree/master/req_limit) (限流)
+### [req_limit](https://learning_tools/tree/master/req_limit) (限流)
 
     1: main 使用带缓存的channel实现限流
     2: uber_ratelimit 使用uber_ratelimit实现限流       
 
-### [ini](https://github.com/hwholiday/learning_tools/tree/master/ini) (配置文件库)
+### [ini](https://learning_tools/tree/master/ini) (配置文件库)
 
     1: main 配置文件ini的读取，以及自动匹配到结构体里面
 
-### [minio](https://github.com/hwholiday/learning_tools/tree/master/minio) (对象存储服务)
+### [minio](https://learning_tools/tree/master/minio) (对象存储服务)
 
     1: minio 对象存储服务使用
 
-### [mysql](https://github.com/hwholiday/learning_tools/tree/master/mysql) (mysql服务器)
+### [mysql](https://learning_tools/tree/master/mysql) (mysql服务器)
 
     1: main 简单的mysql使用
 
-### [redis](https://github.com/hwholiday/learning_tools/tree/master/redis) (redis相关)
+### [redis](https://learning_tools/tree/master/redis) (redis相关)
 
     1: bloom_filter redis 实现BloomFilter过滤器
     2: lock redis实现全局锁
     3: pipeline redis事务
     4: subscription redis发布订阅    
 
-### [mongodb](https://github.com/hwholiday/learning_tools/tree/master/mongodb) (mongodb服务器)
+### [mongodb](https://learning_tools/tree/master/mongodb) (mongodb服务器)
 
     1: mgo.v2  mgo.v2库的基础使用学习
     2: mongo-go-driver  官方库的demo，以及事务提交（不能是单节点）
 
-### [gin](https://github.com/hwholiday/learning_tools/tree/master/gin) (web框架gin学习)
+### [gin](https://learning_tools/tree/master/gin) (web框架gin学习)
 
     1: mvc 模式，swagger文档 可作为基础学习gin
 
-### [jwt](https://github.com/hwholiday/learning_tools/tree/master/jwt) (JSON WEB TOKEN)
+### [jwt](https://learning_tools/tree/master/jwt) (JSON WEB TOKEN)
 
     1: jwt 学习使用   
 
-### [snow_flake](https://github.com/hwholiday/learning_tools/tree/master/snow_flake) (雪花算法)
+### [snow_flake](https://learning_tools/tree/master/snow_flake) (雪花算法)
 
     1: main 雪花算法    
 
-### [encryption_algorithm](https://github.com/hwholiday/learning_tools/tree/master/encryption_algorithm) (双棘轮算法, KDF链,迪菲-赫尔曼棘轮,x3dh)
+### [encryption_algorithm](https://learning_tools/tree/master/encryption_algorithm) (双棘轮算法, KDF链,迪菲-赫尔曼棘轮,x3dh)
 
     1: aes ase-(cfb,cbc,ecb)-(128,192,256)加解密方法
     2: curve25519 椭圆曲线算法
     3: 3curve25519 双棘轮算法,KDF链
 
-### [LRU](https://github.com/hwholiday/learning_tools/tree/master/LRU) (缓存淘汰算法)
+### [LRU](https://learning_tools/tree/master/LRU) (缓存淘汰算法)
 
     1: list lru 缓存淘汰算法 
 
-### [tcp](https://github.com/hwholiday/learning_tools/tree/master/tcp) (tcp协议实现)
+### [tcp](https://learning_tools/tree/master/tcp) (tcp协议实现)
 
     1: 实现网络库，封包，解包 len+tag+data 模式
 
-### [websocket](https://github.com/hwholiday/learning_tools/tree/master/websocket) (websocket协议实现)
+### [websocket](https://learning_tools/tree/master/websocket) (websocket协议实现)
 
     1: 实现网络库
 
-### [binary_conversion](https://github.com/hwholiday/learning_tools/tree/master/tool/binary_conversion) (进制转换)
+### [binary_conversion](https://learning_tools/tree/master/tool/binary_conversion) (进制转换)
 
     1: 10to36 10进制转36进制
     2: 10to62 10进制转62进制
     3: 10to76 10进制转76进制
     4: binary 用一个int64来描述开关（用户设置很多建议使用）       
 
-### [job_worker_mode](https://github.com/hwholiday/learning_tools/tree/master/job_worker_mode) (job_worker模式)
+### [job_worker_mode](https://learning_tools/tree/master/job_worker_mode) (job_worker模式)
 
     1: worker job_worker模式，可提高系统吞吐量
 
-### [filewatch](https://github.com/hwholiday/learning_tools/tree/master/filewatch) (监控文件变化)
+### [filewatch](https://learning_tools/tree/master/filewatch) (监控文件变化)
 
     1: main 监控文件变化 可实现自动构建
 
-### [prometheus](https://github.com/hwholiday/learning_tools/tree/master/prometheus) (普罗米修斯)
+### [prometheus](https://learning_tools/tree/master/prometheus) (普罗米修斯)
 
     1: main 普罗米修斯    
 
-### [goquery](https://github.com/hwholiday/learning_tools/tree/master/goquery) (网页解析工具)
+### [goquery](https://learning_tools/tree/master/goquery) (网页解析工具)
 
     1: main 可以作为爬虫解析网页使用
 
-### [active_object](https://github.com/hwholiday/learning_tools/tree/master/active_object) (并发设计模式)
+### [active_object](https://learning_tools/tree/master/active_object) (并发设计模式)
 
     1: active_object Go并发设计模式之Active Object
 
-### [heap](https://github.com/hwholiday/learning_tools/tree/master/container/heap) (优先级队列)
+### [heap](https://learning_tools/tree/master/container/heap) (优先级队列)
 
     1: heap 利用heap创建一个优先级队列
 
-### [cli](https://github.com/hwholiday/learning_tools/tree/master/cli) (go命令行交互)
+### [cli](https://learning_tools/tree/master/cli) (go命令行交互)
 
     1: main go命令行交互
 
-### [context](https://github.com/hwholiday/learning_tools/tree/master/context) (context包学习)
+### [context](https://learning_tools/tree/master/context) (context包学习)
 
     1: main context包学习 
 
-### [err](https://github.com/hwholiday/learning_tools/tree/master/err) (error 相关)
+### [err](https://learning_tools/tree/master/err) (error 相关)
 
     1: main golang 1.13 error 相关
 
-### [interface](https://github.com/hwholiday/learning_tools/tree/master/interface) (interface包学习)
+### [interface](https://learning_tools/tree/master/interface) (interface包学习)
 
     1: main interface包学习
     2: middleware Golang 基于interface 实现中间件
 
-### [syncPool](https://github.com/hwholiday/learning_tools/tree/master/syncPool) (syncPool包学习)
+### [syncPool](https://learning_tools/tree/master/syncPool) (syncPool包学习)
 
     1: main syncPool包学习
 
-### [reflect](https://github.com/hwholiday/learning_tools/tree/master/reflect) (reflect包学习)
+### [reflect](https://learning_tools/tree/master/reflect) (reflect包学习)
 
     1: main reflect包学习
 ### [slog](https://github.com/hwholiday/learning_tools/tree/master/slog) (slog包学习)

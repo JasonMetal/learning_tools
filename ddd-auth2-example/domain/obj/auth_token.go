@@ -1,7 +1,7 @@
 package obj
 
 import (
-	"github.com/hwholiday/learning_tools/ddd-auth2-example/domain/dto"
+	"learning_tools/ddd-auth2-example/domain/dto"
 	"time"
 )
 

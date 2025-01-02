@@ -1,8 +1,8 @@
 package etcd
 
 import (
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
 	"go.etcd.io/etcd/api/v3/mvccpb"
+	"learning_tools/hconfig/hconf"
 )
 import clientv3 "go.etcd.io/etcd/client/v3"
 

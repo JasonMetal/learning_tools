@@ -3,9 +3,9 @@ package etcd
 import (
 	"errors"
 	"fmt"
-	"github.com/hwholiday/learning_tools/hconfig/hconf"
 	"go.etcd.io/etcd/api/v3/mvccpb"
 	clientv3 "go.etcd.io/etcd/client/v3"
+	"learning_tools/hconfig/hconf"
 	"strings"
 )
 

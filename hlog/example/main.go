@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/hwholiday/learning_tools/hlog"
 	"go.uber.org/zap"
+	"learning_tools/hlog"
 	"net/http"
 )
 
