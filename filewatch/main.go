@@ -22,7 +22,7 @@ func main() {
 	w := Watch{
 		watch: watch,
 	}
-	w.watchDir("./filewatch/watch")
+	w.watchDir("./watch")
 	select {}
 }
 

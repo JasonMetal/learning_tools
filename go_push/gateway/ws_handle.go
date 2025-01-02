@@ -21,7 +21,7 @@ func (w *WsConnection) WsHandle() {
 		switch {
 		case msg.Type == 1: //{"type":1,"data":"PING"},{"type":1,"data":"PONG"}
 			_ = w.ws.SetReadDeadline(time.Now().Add(time.Second * 10))
-			_ = w.SendMsg(&WSMessage{Type: 1, Data: "PONG"})
+			_ = w.SendMsg(&WSMessage{Type: 1, Data: "PONG++"})
 		default:
 			fmt.Println("OTHER", msg.Type, msg.Data)
 

@@ -30,7 +30,7 @@ func InitWsServer() {
 	NewPushTask(len(RoomTitle), 3, 10)
 	// HTTP服务
 	server := http.Server{
-		Addr:         "0.0.0.0:8888",
+		Addr:         "127.0.0.1:8888",
 		ReadTimeout:  time.Duration(10) * time.Millisecond,
 		WriteTimeout: time.Duration(10) * time.Millisecond,
 		Handler:      mux,

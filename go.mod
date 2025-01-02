@@ -1,7 +1,6 @@
-//module learning_tools
-module learning_tools
+module github.com/hwholiday/learning_tools
 
-go 1.18
+go 1.22
 
 replace google.golang.org/grpc v1.40.0 => google.golang.org/grpc v1.27.0
 
